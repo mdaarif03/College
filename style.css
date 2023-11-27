@@ -1,0 +1,137 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: "poppins",sans-serif;
+      box-sizing: border-box;
+}
+.header{
+      height: 100vh;
+      width: 100%;
+      padding: 0 7%;
+      /* background: saddlebrown; */
+      position: relative;
+}
+nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+}
+.logo{
+     width: 100px; 
+}
+.nav-links{
+      padding: 28px 0;
+      color: aqua;
+}
+.nav-links li{
+      display: inline-block;
+      margin: 0 15px;
+      color: #fff;
+      font-size: large;
+}
+.nav-links88 li a{
+      text-decoration: none;
+      /* color: aqua; */
+      padding: 5px 0;
+      position: relative;
+}
+.nav-link li a::after{
+      content: '';
+      background:aqua;
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: width 0.5s;
+}
+.nav-link li a:hover::after{
+      width: 100%;
+
+}
+.btn{
+      background:aqua;
+     color: black;
+      padding: 10px 30px;
+      border-radius: 2px;
+      cursor: pointer;
+}
+.content{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 90%;
+      max-width: 800px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      /* color: #ff3dff; */
+      padding-top: 50px;
+
+}
+.content h1{
+      font-size:80px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: aqua;
+}
+.content form{
+      background:rgb(34, 34, 228);
+      padding: 10px;
+      border-radius: 8px;
+      display: flex;
+}
+.content form input{
+      flex: 1;
+      border: none;
+      outline: none;
+      padding: 0 20;
+      font-size: 18px;
+      font-size: large;
+}
+.content form button{
+      background:aqua;
+      color: #fff;
+      padding: 15px 40px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+}
+.back-video{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+}
+.image{
+      height: 500px;
+      width: 100%;
+      padding: 0 7%;
+      background: rgb(2, 2, 67);
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+}
+
+.box{
+      height: 500px;
+      width: 100%;
+      padding: 0 6%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+}
+h1{
+      color: rgb(33, 33, 235);
+      justify-content: center;
+      text-align: center;
+      font-size: 60px;
+     background-color: ;
+}
